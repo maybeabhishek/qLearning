@@ -7,9 +7,9 @@ env = gym.make("MountainCar-v0")
 LEARNING_RATE = 0.1
 
 DISCOUNT = 0.95
-EPISODES = 2000
+EPISODES = 10000
 
-SHOW_EVERY = 500
+SHOW_EVERY = 1000
 
 DISCRETE_OS_SIZE = [20, 20]
 discrete_os_win_size = (env.observation_space.high - env.observation_space.low)/DISCRETE_OS_SIZE
